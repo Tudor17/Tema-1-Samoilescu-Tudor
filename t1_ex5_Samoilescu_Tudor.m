@@ -19,10 +19,10 @@ figure
 
 %pct c)
 F=20; %Hz
+t=0:0.001:0.2; %durata semnalului este de 0.2 s,iar pasul este de 0.001s
 c=2*cos(pi/2-(2*pi*F*t));
 plot(t,c,'.-r'),xlabel('Timp[c]'),grid
 hold on
 F=50; %Hz
-t=0:0.001:0.2; %durata semnalului este de 0.2 s,iar pasul este de 0.001s
 s=2*sin(2*pi*F*t);
 plot(t,s,'.-'),xlabel('Timp[s]'),grid
